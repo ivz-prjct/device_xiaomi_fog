@@ -40,7 +40,8 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.primary.default \
-    libaudio-resampler
+    libaudio-resampler \
+    sound_trigger.primary.bengal
 
 PRODUCT_PRODUCT_PROPERTIES += \
     audio_para_version=C3Q-Audiopara-V01-20211102 \
