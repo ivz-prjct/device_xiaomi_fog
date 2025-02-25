@@ -177,11 +177,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := fog,rain,wind
 
-# Platform
-BOARD_USES_QCOM_HARDWARE := true
-BOARD_VENDOR := xiaomi
-TARGET_BOARD_PLATFORM := bengal
-
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
 
