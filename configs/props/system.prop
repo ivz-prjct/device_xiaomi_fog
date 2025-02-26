@@ -15,7 +15,6 @@ ro.charger.enable_suspend=true
 # Display
 debug.cpurend.vsync=false
 debug.hwui.skia_atrace_enabled=false
-debug.sf.enable_hwc_vds=0
 debug.sf.auto_latch_unsignaled=0
 ro.surface_flinger.supports_background_blur=0
 
@@ -90,10 +89,6 @@ ro.vendor.radio.features_common=3
 
 # Time-services
 persist.timed.enable=true
-
-# WFD settings
-persist.debug.wfd.enable=1
-persist.sys.wfd.virtual=0
 
 # WLAN
 # 0: no dbs, 1: 1x1 dbs, 2: 2x2 dbs
