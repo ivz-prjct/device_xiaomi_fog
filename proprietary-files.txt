@@ -1233,7 +1233,6 @@ vendor/lib64/libwvhidl.so|cbc02c1560ed8a9cbe697b5351a94def71692e75
 vendor/lib64/libwvkeybox.so|f0425e7cc15d0740763df190c56155f874b9c32a
 
 # Wi-Fi - from MIUI
-vendor/bin/cnss-daemon|075855fb8205203a4bc87bf8e21ce62d47579cc1
 vendor/etc/wifi/aoa_cldb_falcon.bin|7511e868c40e66e9758568b7112894cbce2650a4
 vendor/etc/wifi/aoa_cldb_swl14.bin|2a3be07a8f24bc1b9798d07c7133b0f71b77738f
 
