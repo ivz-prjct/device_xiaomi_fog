@@ -248,8 +248,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
     libavservices_minijail_vendor \
-    libavservices_minijail \
-    libavservices_minijail.vendor \
     libOmxCore \
     libOmxVdec \
     libOmxVenc \
@@ -368,6 +366,7 @@ PRODUCT_PACKAGES += \
 TARGET_COMMON_QTI_COMPONENTS := \
     alarm \
     audio \
+    av \
     bt
     
 # RIL
