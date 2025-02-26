@@ -334,7 +334,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     av \
     bt \
     display \
-    gps
+    gps \
+    perf
     
 # RIL
 PRODUCT_PACKAGES += \
@@ -398,10 +399,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
-
-# Servicetracker
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.2.vendor
 
 # Telephony
 PRODUCT_PACKAGES += \
