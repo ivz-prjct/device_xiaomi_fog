@@ -101,8 +101,6 @@ vendor/firmware/aw87xxx_acf.bin|4c309dc610d77ae2511ae39ce0c4c171f77ed046
 vendor/firmware/fs1599.fsm|642a47863bc5ad3b7de6c7a04a3289ab322cf7d6
 
 # Audio FX - from MIUI
-system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
-system_ext/framework/audiosphere.jar|98d17293550d99e59d1edd8582ed4551dc167249
 vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
 vendor/lib/soundfx/libmisoundfx.so|460208c6ac74b2f79ae2cb064ddbdb1c25ce0e33
 vendor/lib/soundfx/libqcbassboost.so|cc5ec98ec56b02bdb9f6b1de0a2a4e0f2b18c315
@@ -111,7 +109,6 @@ vendor/lib/soundfx/libqcvirt.so|67da89cce00148dddeb4991697c9773376e39d8b
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
 # Audio HAL - from MIUI
-vendor/lib/hw/audio.primary.bengal.so|ef3b29f74f92ce55ed483134cf70ba7bd6440c8f
 vendor/lib/libaudio_log_utils.so|4bb503a7c4a866ae183bf91073dccc8f35ea9133
 
 # Audio Libraries - from MIUI
@@ -125,18 +122,9 @@ vendor/lib/libaudcal.so|13427c089c6bcc43136f3706d51a7bc70d073e23
 vendor/lib/libaudioalsa.so|b1521744832c14b67095209955e5d8a440c491a7
 vendor/lib/libaudioconfigstore.so|c41f6f6aeb488155f7018f44e452b76fc014b72d
 vendor/lib/libaudioparsers.so|522d0f379103e431271d3c409f52814289c49a90
-vendor/lib/libbatterylistener.so|007f00b549f628deee5bfa486ee25df1e6a5d7f3
-vendor/lib/libcirrusspkrprot.so|d8206132416f42f9292067beaa12a0af9b6dcbe6
-vendor/lib/libcomprcapture.so|13d6ceef09e20b3f8030ee1fa7e8ec277f853c37
 vendor/lib/libdrc.so|b066f176f119847059c5aa148f73e1b042fbeab3
-vendor/lib/libexthwplugin.so|b544d06601cd013d7cee9f9dac79ef4ddb73bd8c
-vendor/lib/libhdmiedid.so|f647d8e49138030e7c5db56ff4a2ff5b8bc8ae12
 vendor/lib/libhdmipassthru.so|d621b51b2df80c931f5bc694aabb9567b2018560
-vendor/lib/libhfp.so|c3da1a209b014e3e42f0d070904ecf2dd8f0d68c
 vendor/lib/libqtigef.so|cc747f5312e59ed6e436244f16af82987dca4dbd
-vendor/lib/libsndmonitor.so|c1868614e828295b139c8afface6bd205f39c6e9
-vendor/lib/libspkrprot.so|1640a2313d042f26ea4a03af7a5ad5f90cddc813
-vendor/lib/libssrec.so|8ee9f07a09881f3f5f7edb70946802649ea00f03
 vendor/lib/libsurround_3mic_proc.so|e8e086123e0c1dc17f008f97edb3611cd4c702e1
 
 # Batterysecret - from spes 12 MIUI V13.0.4.0.SGCMIXM release-keys
