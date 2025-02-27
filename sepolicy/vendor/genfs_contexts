@@ -10,9 +10,6 @@ genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery    
 genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/power_supply/usb/real_type                  u:object_r:vendor_sysfs_battery_supply:s0
 genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify                     u:object_r:vendor_sysfs_battery_supply:s0
 
-# DSP
-genfscon sysfs /kernel/boot_cdsp/boot                                           u:object_r:sysfs_msm_boot:s0
-
 # Display
 genfscon sysfs /devices/platform/soc/5900000.qcom,kgsl-3d0                                          u:object_r:sysfs_msm_subsys:s0
 genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/idle_state                               u:object_r:vendor_sysfs_graphics:s0
