@@ -178,6 +178,7 @@ TARGET_OTA_ASSERT_DEVICE := fog,rain,wind
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop

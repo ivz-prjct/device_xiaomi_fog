@@ -62,6 +62,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.power</name>
+        <version>3</version>
+        <interface>
+            <name>IPower</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.radio</name>
         <version>1.0-5</version>
@@ -614,6 +622,13 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.aospa.power</name>
+        <interface>
+            <name>IPowerFeature</name>
+             <instance>default</instance>
+        </interface>
+    </hal>    
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.servicetracker</name>
         <version>1.0-2</version>
