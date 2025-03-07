@@ -343,6 +343,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
     dalvik.vm.image-dex2oat-threads=8
 
+# Display
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
+
 # DPM
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.dpm.feature=1
@@ -416,6 +420,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.mdpcomp.logs=0 \
     debug.sdm.support_writeback=0 \
     persist.sys.sf.color_saturation=1.0 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno \
+    ro.opengles.version=196610 \
     vendor.gralloc.disable_ubwc=0 \
     vendor.gralloc.secure_preview_buffer_format=420_sp
 
@@ -629,7 +636,6 @@ PRODUCT_PACKAGES += \
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
-    adreno \
     alarm \
     audio \
     av \
@@ -790,6 +796,16 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
+
+# Vulkan
+PRODUCT_PACKAGES += \
+    libvulkan
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.level-1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.xml \
+    frameworks/native/data/etc/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
+    frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
 # WiFi
 PRODUCT_COPY_FILES += \
