@@ -116,8 +116,7 @@ BOARD_KERNEL_CMDLINE += \
     msm_rtb.filter=0x237 \
     service_locator.enable=1 \
     swiotlb=2048 \
-    cgroup_disable=pressure \
-    androidboot.selinux=permissive
+    cgroup_disable=pressure
 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := vendor/fog-perf_defconfig
