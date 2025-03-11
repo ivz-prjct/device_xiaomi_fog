@@ -578,21 +578,18 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigFog \
-    DialerFog \
-    FrameworksFog \
-    FrameworksFogIN2 \
+    AOSPAFogFrameworksOverlay \
+    FogCarrierConfigOverlay \
+    FogFrameworksOverlay \
+    FogIN2FrameworksOverlay \
     NoCutoutOverlay \
-    SettingsFog \
-    SettingsProviderFog \
-    SettingsProviderFogCommon \
-    SettingsProviderFogIN \
-    SettingsProviderFogIN2 \
-    SettingsProviderRain \
-    SettingsProviderWind \
-    SystemUIFog \
-    TelephonyFog \
-    WifiFog
+    FogSettingsOverlay \
+    FogSettingsProviderOverlay \
+    FogINSettingsProviderOverlay \
+    FogIN2SettingsProviderOverlay \
+    RainSettingsProviderOverlay \
+    WindSettingsProviderOverlay \
+    FogSystemUIOverlay
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

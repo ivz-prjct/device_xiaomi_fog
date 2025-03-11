@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "FogSystemUIOverlay",
+    theme: "FogSystemUIOverlay",
+    sdk_version: "current",
+    vendor: true,
+}
